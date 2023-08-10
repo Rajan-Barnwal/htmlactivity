@@ -1,0 +1,51 @@
+<!-- tables in html 
+arrangement of data in rows and columns is called tables
+rows=horizental
+columns=vertical
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- thead,tbody used for table creation -->
+    <table border="1">
+        <thead>
+            <th>stu id</th>
+            <th>stu name</th>
+            <th>gender</th>
+            <th>age</th>
+        </thead>
+<tbody>
+    <tr>
+        <td>1234</td>
+        <td colspan="3">bill</td>
+        <!-- colspan used to extend column  -->
+        
+    </tr>
+    <tr>
+        <td>1234</td>
+        <td>bill</td>
+        <td>mail</td>
+        <td rowspan="3">age</td>
+        <!-- rowspan used to merge rows -->
+    </tr>
+    <tr>
+        <td>1234</td>
+        <td>bill</td>
+        <td>mail</td>
+        
+    </tr>
+    <tr>
+        <td>1234</td>
+        <td>bill</td>
+        <td>mail</td>
+        
+    </tr>
+</tbody>
+    </table>
+</body>
+</html>
